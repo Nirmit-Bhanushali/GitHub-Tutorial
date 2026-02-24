@@ -1,0 +1,10 @@
+git clone "link"
+git status
+
+// STATUS TYPES:
+// 1. Untracked files: These are files that are not being tracked by Git. They are new files that have been added to the working directory but have not been staged for commit.
+// 2. Changes not staged for commit: These are files that have been modified but have
+    not been staged for commit. They are tracked files that have been changed but have not yet been added to the staging area.
+// 3. Changes to be committed: These are files that have been staged for commit. They are tracked files that have been modified and added to the staging area, ready to be committed.
+// 4. Unmerged paths: These are files that have conflicts during a merge operation. They are files that have been modified in both branches being merged and require manual resolution before they can be committed.
+// 5. Ignored files: These are files that are intentionally ignored by Git. They are specified in the .gitignore file and are not tracked or staged for commit.
