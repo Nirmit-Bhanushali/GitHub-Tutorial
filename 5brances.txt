@@ -1,0 +1,20 @@
+// to check branch
+git branch
+// to create a new branch
+git branch "branch name"
+or
+git checkout -b "branch name"
+// to rename the branch
+git branch -m "old branch name" "new branch name"
+or 
+git branch -m "new branch name"
+// to navigate to the branch
+git checkout "branch name"
+// to compare commits, branches, files, etc
+git diff "branch name"
+// to merge the branch
+git merge "branch name"
+// to delete the branch
+git branch -d "branch name"
+// to force delete the branch
+git branch -D "branch name"
