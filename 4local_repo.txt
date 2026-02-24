@@ -1,0 +1,19 @@
+// Making a local repository
+mkdir "repo name"
+cd "repo name"
+// cheacking the file is in git repository or not
+ls -a
+// initialize the git repository
+git init
+// check the status of the repository
+git status
+// add the file to the staging area
+git remote add origin "url of the repository"
+// to verify the remote repository
+git remote -v
+// to check the branch
+git branch
+// to rename the branch
+git branch -M main
+// to push the code to the remote repository
+git push -u origin main
