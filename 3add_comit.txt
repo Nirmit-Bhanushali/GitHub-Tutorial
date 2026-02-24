@@ -1,0 +1,8 @@
+// add all the files to staging area
+git add .
+// add specific file to staging area
+git add "file name"
+// commit the changes to local repository
+git commit -m "commit message"
+// push the changes to remote repository
+git push origin "main"
