@@ -1,0 +1,22 @@
+// Way 1
+
+// to compare commits, branches, files & more
+git diff <- branch name->
+
+// to merge 2 branches
+git merge <- branch name->
+
+// Way 2
+
+// to create a pull request (PR) on GitHub, follow these steps:
+1. Push your branch to GitHub:
+   git push origin <branch-name>
+2. Go to your repository on GitHub and click on the "Pull requests" tab.
+3. Click on the "New pull request" button.
+4. Select the base branch (the branch you want to merge into) and the compare branch (the branch you want to merge from).
+5. Review the changes and click on the "Create pull request" button.
+6. Add a title and description for your pull request, and then click on the "Create pull request" button again to submit it.
+7. Once the pull request is created, you can discuss and review the changes with your team
+8. If everything looks good, you can merge the pull request by clicking on the "Merge pull request" button and confirming the merge.
+9. After merging, you can delete the branch if it's no longer needed by clicking on the "Delete branch" button.
+// Note: It's important to communicate with your team and follow the established workflow for merging branches, whether it's through the command line or using pull requests on GitHub.
